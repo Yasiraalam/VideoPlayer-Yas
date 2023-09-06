@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".allfragments.FolderFragment">
+
+    <TextView
+        android:id="@+id/totalFolders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_Folders"
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        android:layout_margin="10dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/foldersRV"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
